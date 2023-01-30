@@ -29,9 +29,9 @@ function App() {
       setAlert(null);
       
     },1500);
-  }
+  };
 
-  const removeBodyClasses = () =>
+  const removeBodyClasses =() =>
   {
     document.body.classList.remove('bg-light');
     document.body.classList.remove('bg-dark');
